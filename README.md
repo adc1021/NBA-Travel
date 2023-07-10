@@ -1,4 +1,6 @@
 # NBA Travel
+![Screen Shot 2023-07-10 at 2 57 14 PM](https://github.com/adc1021/NBA-Travel-/assets/111291271/04993a9a-f49d-4eee-800b-01b2969c44cb)
+
 
 ## 1. Introduction
 Each year, teams in professional sports see scores of athletes suffer injuries both minor and major. After creating a predictive model to try and determine the leading causes of injuries in the NBA, I was fascinated by the effect travel schedules may have on player health. In this Tableau visualization, I display the key differences in travel between the bottom and top 5 teams in the league, in regards to overall travel schedule. 
