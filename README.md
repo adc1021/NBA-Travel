@@ -10,7 +10,16 @@ The questions I wanted to address were as follows:
 2. Does geography and travel play any role in team outcomes, based on record?
 3. As my predictive model suggests, does the total amount of miles travelled per team affect the number of injuries a team suffers?
 
-## 2. Data Cleaning
+### 1a. Technologies
+I used the following tech to complete this project: 
+1. R programming Language
+   + airball R package
+2. SQL
+   + PostgreSQL
+3. Microsoft Excel 
+4. Tableau 
+
+## 2. Data 
 The raw data for this project was taken from the airball R package which pulls data from __www.nba.com/data__ 
 
 First, I used the following R script to pull data for every team in the league. The function below is written in R and pulls data with the help of the airball package and then immediately adds it directly to a <ins>PostgreSQL<ins> database: 
@@ -106,3 +115,4 @@ COPY records (flight_id, team, latitude, longitude, d_latitude, d_longitude, dis
 TO '/Users/antho/Documents/knicks_2022.csv'
 WITH (FORMAT CSV, HEADER);
 ```
+
