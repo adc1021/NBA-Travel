@@ -116,3 +116,12 @@ TO '/Users/antho/Documents/knicks_2022.csv'
 WITH (FORMAT CSV, HEADER);
 ```
 
+f. To determine if travel had a significant impact on injuries I pulled more data from the airball R package. I then stored the data
+in another PostgreSQL database and performed the following command to get the total number of injuries for each team: 
+
+```SQL
+select team, COUNT(acquired) as total_inj
+from injuries
+where acquired like '%•%'
+group by team order by total_inj desc
+```
