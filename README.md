@@ -125,3 +125,13 @@ from injuries
 where acquired like '%•%'
 group by team order by total_inj desc
 ```
+
+## Conclusion
+
+After diving into the data I can comfortably answer each question I originally posed at the start of the project. 
+
+1. Yes, coastal teams do tend to have more gruelling travel schedules than their more centralized counterparts. The most extreme difference being between the Warriors (51,500 miles traveled) and the Pacers (35,754 miles traveled)
+
+2. For this particular sample size, it did not appear as if their was a significant correlation between miles travelled and teams overall records
+
+3. Again, from this small sample size. It did not appear as if the total distance travelled had much of an impact at all for teams in regards to the total number of injuries they had to deal with
